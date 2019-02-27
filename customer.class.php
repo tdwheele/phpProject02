@@ -9,7 +9,7 @@ class Customer {
     private $nameError = null;
     private $emailError = null;
     private $mobileError = null;
-    private $title = "Customer";
+    private $title = "lCustomer";
     private $tableName = "customer";
     
     function create_record() { // display "create" form
