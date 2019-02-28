@@ -256,7 +256,7 @@ class Customer {
         echo "
             </head>
             <body>
-                <a href='https://github.com/cis355/PhpProject1' target='_blank'>Github</a><br />
+                <a href='https://github.com/tdwheele/PhpProject02' target='_blank'>Github</a><br />
                 <div class='container'>
                     <p class='row'>
                         <h3>$this->title" . "s" . "</h3>
