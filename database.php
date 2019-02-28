@@ -2,12 +2,11 @@
 class Database 
 {
 	// these are not the real passwords
-	// for real passwords, see file in ../database subdirectory
-	private static $dbName = 'id7137482_customers' ; 
-	private static $dbHost = 'localhost' ;
-	private static $dbUsername = 'id7137482_tdwheele355wi19';
-	private static $dbUserPassword = 'test1234';
-	
+	// for real passwords, see file in ../database subdirector
+    private static $dbName = 'tdwheele355wi19_northwind' ;
+    private static $dbHost = '10.8.30.49' ;
+    private static $dbUsername = 'tdwheele355wi19';
+    private static $dbUserPassword = 'myAdmin247';
 	private static $cont  = null;
 	
 	public function __construct() {
