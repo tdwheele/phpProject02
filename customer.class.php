@@ -72,7 +72,7 @@ class Customer {
             $q = $pdo->prepare($sql);
             $q->execute(array($this->name,$this->email,$this->mobile));
             Database::disconnect();
-            header("Location: $this->createTable.php"); // go back to "list"
+            header("Location: $this->tableName.php"); // go back to "list"
         }
         else {
             // if not valid data, go back to "create" form, with errors
