@@ -18,7 +18,7 @@ $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 // Prepare query for data binding (question marks: ?, ?, ?)
 $q = $pdo->prepare($sql);
 // Create  table ONLY if table does not already exist
-if(!Database::tableExists($pdo, "customer")) {
+if(!Database::tableExists($pdo, "customers")) {
     $q->execute(array()); // create the table
 }
 else {
