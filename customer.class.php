@@ -10,7 +10,7 @@ class Customer {
     private $emailError = null;
     private $mobileError = null;
     private $title = "Customer";
-    private $tableName = "customers2";
+    private $tableName = "customers";
     
     function create_record() { // display "create" form
         $this->generate_html_top (1);
