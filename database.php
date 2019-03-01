@@ -6,7 +6,7 @@ class Database
     private static $dbName = 'tdwheele355wi19_northwind' ;
     private static $dbHost = '10.8.30.49' ;
     private static $dbUsername = 'tdwheele355wi19';
-    private static $dbUserPassword = 'myAdmin247';
+    private static $dbUserPassword = '';
 	private static $cont  = null;
 	
 	public function __construct() {
